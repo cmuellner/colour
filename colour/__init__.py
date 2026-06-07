@@ -458,6 +458,7 @@ from .quality import (
     colour_fidelity_index,
     colour_quality_scale,
     colour_rendering_index,
+    gamut_area_index,
     spectral_similarity_index,
 )
 from .recovery import XYZ_TO_MSDS_METHODS, XYZ_TO_SD_METHODS, XYZ_to_msds, XYZ_to_sd
@@ -888,6 +889,7 @@ __all__ += [
     "colour_fidelity_index",
     "colour_quality_scale",
     "colour_rendering_index",
+    "gamut_area_index",
     "spectral_similarity_index",
 ]
 __all__ += [

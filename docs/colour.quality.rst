@@ -70,6 +70,27 @@ Colour Quality Scale
 
     ColourRendering_Specification_CQS
 
+Gamut Area Index
+----------------
+
+``colour``
+
+.. currentmodule:: colour
+
+.. autosummary::
+    :toctree: generated/
+
+    gamut_area_index
+
+``colour.quality``
+
+.. currentmodule:: colour.quality
+
+.. autosummary::
+    :toctree: generated/
+
+    ColourQuality_Specification_GAI
+
 Academy Spectral Similarity Index (SSI)
 ---------------------------------------
 

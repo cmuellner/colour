@@ -24,6 +24,7 @@ from .cri import (
     colour_rendering_index,
 )
 from .datasets import *  # noqa: F403
+from .gai import ColourQuality_Specification_GAI, gamut_area_index
 from .ssi import spectral_similarity_index
 from .tm3018 import (
     ColourQuality_Specification_ANSIIESTM3018,
@@ -44,6 +45,10 @@ __all__ += [
     "COLOUR_RENDERING_INDEX_METHODS",
     "ColourRendering_Specification_CRI",
     "colour_rendering_index",
+]
+__all__ += [
+    "ColourQuality_Specification_GAI",
+    "gamut_area_index",
 ]
 __all__ += [
     "spectral_similarity_index",
